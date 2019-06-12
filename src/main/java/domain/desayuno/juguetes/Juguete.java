@@ -13,6 +13,8 @@ abstract class Juguete implements Item {
     }
 
     public String toString(){
-        return caja.toString();
+        return caja.envoltorio();
     }
+
+
 }

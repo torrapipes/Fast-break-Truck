@@ -17,7 +17,7 @@ public class Eyeholes extends Cereales {
     }
 
     public String toString(){
-        return this.NOMBRE + "Empaquetado: " + super.toString() + "Precio: " + this.pvp();
+        return "\nItem: " + this.NOMBRE + ", Empaquetado: " + super.toString() + ", Precio: " + this.pvp();
     }
 
 

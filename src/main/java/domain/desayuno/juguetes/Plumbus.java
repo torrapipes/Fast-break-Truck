@@ -15,4 +15,8 @@ public class Plumbus extends Juguete {
         return this.PVP;
     }
 
+    public String toString(){
+        return "Item: " + this.NOMBRE + ", Empaquetado: " + super.toString() + ", Precio: " + this.pvp();
+    }
+
 }

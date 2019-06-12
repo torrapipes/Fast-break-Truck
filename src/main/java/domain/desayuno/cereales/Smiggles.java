@@ -17,5 +17,8 @@ public class Smiggles extends Cereales {
         return this.PVP;
     }
 
+    public String toString(){
+        return "\nItem: " + this.NOMBRE + ", Empaquetado: " + super.toString() + ", Precio: " + this.pvp();
+    }
 
 }

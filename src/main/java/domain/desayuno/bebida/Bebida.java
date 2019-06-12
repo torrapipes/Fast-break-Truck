@@ -14,6 +14,6 @@ abstract class Bebida implements Item {
     }
 
     public String envoltorio(){
-        return tubo.toString();
+        return envoltorio;
     }
 }

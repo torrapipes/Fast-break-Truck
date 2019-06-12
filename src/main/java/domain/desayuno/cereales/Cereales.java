@@ -13,7 +13,7 @@ abstract class Cereales implements Item {
     }
 
     public String toString(){
-        return caja.toString();
+        return caja.envoltorio();
     }
 
 

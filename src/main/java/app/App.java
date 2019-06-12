@@ -22,7 +22,7 @@ public class App {
 
        Desayuno smigDes = FastBreakTruck.prepararSmiggles();
         System.out.print("\nSmiggles per als nins!");
-    /*    smigDes.mostrarItems(); */
+        smigDes.mostrarItems();
         System.out.print("Precio pedido: " + smigDes.getCoste());
 
         /**
@@ -31,8 +31,8 @@ public class App {
 
         eyeDes = FastBreakTruck.prepararEyeHoles();
         FastBreakTruck.incluirJuguete(eyeDes);
-        System.out.print("\nEyeholes con plumbus!");/*
-        eyeDes.mostrarItems(); */
+        System.out.print("\nEyeholes con plumbus!");
+        eyeDes.mostrarItems();
         System.out.print("Precio pedido: " + eyeDes.getCoste());
     }
 }
